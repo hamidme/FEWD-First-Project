@@ -31,6 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -57,11 +58,12 @@ a:hover {
 
 header {
   text-align: center;
-  background: url("images/scienceklinic-bg.png") no-repeat top center;
+  background: url("images/coverpage_bg.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -200,4 +202,29 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+}
+/*Style for the experience page*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 20px 0px 80px;
+  text-align: left;
+}
+
+.container h1 {
+  font-size: 40px;
+}
+.container-experience {
+  display: flex;
+  border-top: 1px solid #a7a5a5;
+}
+
+.info {
+  margin: auto;
+  max-width: 800px;
+}
+
+.bottom-info {
+  display: flex;
 }
